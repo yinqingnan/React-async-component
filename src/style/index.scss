@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+
+// config变量集合
+@import "variables";
+
+//layout
+@import "reboot";
+
+//Login
+@import '../views/login/login';
+
+//loginForm
+@import '../components/LogoForm/LogoForm';
+
+
+
+
+.ant-message .anticon{
+  top: -2px;
+}
+//.ant-form-item-explain.ant-form-item-explain-error{
+//  div{
+//    position: absolute;
+//  }
+//}
+.ant-form-item-has-success.ant-form-item-has-feedback .ant-form-item-children-icon{
+  top:14px;
+}
+.ant-form-item-has-error.ant-form-item-has-feedback .ant-form-item-children-icon{
+  top:14px;
+}
